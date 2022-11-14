@@ -1,6 +1,6 @@
+import { getLedger, Sdk } from '@findora-network/findora-sdk-v2-core';
 import axios from 'axios';
 import JSONbig from 'json-bigint';
-import { getLedger, Sdk } from '@findora-network/findora-sdk-v2-core';
 import { Environment } from './environment';
 import * as Types from './types';
 
