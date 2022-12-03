@@ -1,4 +1,9 @@
 import * as Types from './types';
+export declare const getQueryRoute: () => string;
+export declare const getSubmitRoute: () => string;
+export declare const getLedgerRoute: () => string;
+export declare const getExplorerApiRoute: () => string;
+export declare const getRpcRoute: () => string;
 export declare const apiPost: (url: string, data?: Types.ParsedTransactionData, config?: Types.NetworkAxiosConfig) => Promise<Types.NetworkAxiosDataResult>;
 export declare const apiGet: (url: string, config?: Types.NetworkAxiosConfig) => Promise<Types.NetworkAxiosDataResult>;
 export declare const getOwnedSids: (address: string, config?: Types.NetworkAxiosConfig) => Promise<Types.OwnedSidsDataResult>;

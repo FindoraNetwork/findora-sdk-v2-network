@@ -16,7 +16,7 @@ _axios.defaults.transformResponse = [
   },
 ];
 
-const getQueryRoute = (): string => {
+export const getQueryRoute = (): string => {
   const { hostUrl, queryPort } = Environment.config;
 
   const url = `${hostUrl}:${queryPort}`;
@@ -24,7 +24,7 @@ const getQueryRoute = (): string => {
   return url;
 };
 
-const getSubmitRoute = (): string => {
+export const getSubmitRoute = (): string => {
   const { hostUrl, submissionPort } = Environment.config;
 
   const url = `${hostUrl}:${submissionPort}`;
@@ -32,7 +32,7 @@ const getSubmitRoute = (): string => {
   return url;
 };
 
-const getLedgerRoute = (): string => {
+export const getLedgerRoute = (): string => {
   const { hostUrl, ledgerPort } = Environment.config;
 
   const url = `${hostUrl}:${ledgerPort}`;
@@ -40,7 +40,7 @@ const getLedgerRoute = (): string => {
   return url;
 };
 
-const getExplorerApiRoute = (): string => {
+export const getExplorerApiRoute = (): string => {
   const { hostUrl, explorerApiPort } = Environment.config;
 
   const url = `${hostUrl}:${explorerApiPort}`;
@@ -48,7 +48,7 @@ const getExplorerApiRoute = (): string => {
   return url;
 };
 
-const getRpcRoute = (): string => {
+export const getRpcRoute = (): string => {
   const { hostUrl, rpcPort } = Environment.config;
 
   const url = `${hostUrl}:${rpcPort}`;
