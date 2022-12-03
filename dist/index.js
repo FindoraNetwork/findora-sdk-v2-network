@@ -22,10 +22,14 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.NetworkEnvironment = exports.NetworkTypes = exports.Network = void 0;
 exports.Network = __importStar(require("./network"));
 exports.NetworkTypes = __importStar(require("./network/types"));
+__exportStar(require("./network/types"), exports);
 var environment_1 = require("./network/environment");
 Object.defineProperty(exports, "NetworkEnvironment", { enumerable: true, get: function () { return environment_1.Environment; } });
 //# sourceMappingURL=index.js.map
