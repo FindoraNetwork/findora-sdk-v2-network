@@ -6,6 +6,7 @@ export interface IAssetRules {
   max_units: null | number;
   tracing_policies: any[];
 }
+export interface aa {}
 export interface ILedgerAsset {
   memo: string;
 }
