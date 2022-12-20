@@ -258,7 +258,7 @@
 
 "@findora-network/findora-sdk-v2-core@https://github.com/FindoraNetwork/findora-sdk-v2-core.git#develop":
   version "0.1.0"
-  resolved "https://github.com/FindoraNetwork/findora-sdk-v2-core.git#7c969d5b929246d250016ab5d54b10ff51b018c8"
+  resolved "https://github.com/FindoraNetwork/findora-sdk-v2-core.git#730446ea484af2080837883cc9b55c396351d6ca"
   dependencies:
     bignumber.js "^9.0.1"
     dotenv "^10.0.0"
@@ -686,10 +686,15 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
-bignumber.js@^9.0.0, bignumber.js@^9.0.1:
+bignumber.js@^9.0.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.1.0.tgz#8d340146107fe3a6cb8d40699643c302e8773b62"
   integrity sha512-4LwHK4nfDOraBCtst+wOWIHbu1vhvAPJK8g8nROd4iuc3PSEjWif/qwbkh8jwCJz6yDBvtU4KPynETgrfh7y3A==
+
+bignumber.js@^9.0.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.1.1.tgz#c4df7dc496bd849d4c9464344c1aa74228b4dac6"
+  integrity sha512-pHm4LsMJ6lzgNGVfZHjMoO8sdoRhOzOH4MLmY65Jg70bpxCKu5iOHNJyfF6OyvYw7t8Fpf35RuzUyqnQsj8Vig==
 
 binary-extensions@^2.0.0:
   version "2.2.0"
@@ -1343,7 +1348,7 @@ find-versions@^4.0.0:
 
 "findora-wallet-wasm@https://github.com/FindoraNetwork/wasm-js-bindings.git#develop":
   version "0.0.0"
-  resolved "https://github.com/FindoraNetwork/wasm-js-bindings.git#f00b3863b8f2c13b9329e9be8513a322c67094cf"
+  resolved "https://github.com/FindoraNetwork/wasm-js-bindings.git#b72bc8ab9e01a52bedd62fa04f1ce3da1df4a58e"
 
 flat-cache@^3.0.4:
   version "3.0.4"

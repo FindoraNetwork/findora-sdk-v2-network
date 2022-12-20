@@ -15,7 +15,7 @@
     "cli:build": "tsc",
     "start:run:once": "node dist/run.js",
     "start:once": "yarn build; yarn start:run:once",
-    "update-core": "yarn upgrade @findora-network/findora-sdk-v2-core"
+    "update-v2": "yarn upgrade @findora-network/findora-sdk-v2-core"
   },
   "author": "Findora Network <oleksandr@findora.org>",
   "license": "ISC",
